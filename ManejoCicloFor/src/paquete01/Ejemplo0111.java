@@ -9,7 +9,7 @@ package paquete01;
  *
  * @author reroes
  */
-public class Ejemplo01 {
+public class Ejemplo0111 {
 
     /**
      * @param args the command line arguments
@@ -20,17 +20,17 @@ public class Ejemplo01 {
         ciclos repetitivos y condicionales en donde se preseten los valores 
         finales
         */
-        String acumulador= "";
+        int acumulador= 0;
         for (int i = 1; i <= 10; i++) {
             
-            acumulador = String.format("%s%d",acumulador,i);
+            acumulador = acumulador + i;
         }
         
         for (int i = 1; i < 11; i++) {
             
-            acumulador = String.format("%s%d",acumulador,i);
+           acumulador = acumulador + i; 
         }
-        System.out.printf("%s",acumulador);
+        System.out.printf("%s\n",acumulador);
     }
 
 }
